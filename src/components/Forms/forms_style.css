@@ -1,0 +1,111 @@
+/* ===== Importes: Fontes ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.form{
+    background-color: #010e14;
+    border-radius: 0.25rem;
+    margin: auto;
+    max-width: 65rem;
+    padding: 0.75rem;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sawari Gothic', sans-serif;
+}
+
+.form form p,
+.form form label{
+    color: white;
+}
+
+.sign-in-form form label{
+    font-size: 0.75rem;
+}
+
+.form form input,
+.form form select{
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0 0.25rem 0.25rem;
+    color: black;
+}
+
+.form form .user-boxes,
+.form form .address-boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form .user-boxes div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form form .user-boxes .name-box,
+.form form .user-boxes .contact-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form form .email-box,
+.login-form form .password-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form .user-boxes .name-box input,
+.form form .user-boxes .contact-box input{
+    flex: 0.498;
+}
+
+.form form .user-boxes .date-box input,
+.form form .user-boxes .usertype-box select,
+.form form .user-boxes .password-box input{
+    flex: 1;
+}
+
+.form form .address-boxes .address-box{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+}
+
+.form form .address-boxes .address-box input{
+    margin: 0.1rem;
+}
+
+.form form .submit-btn{
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #177a80;
+    color: white;
+    padding: 0.5rem;
+}
+
+.form form .submit-btn:hover,
+.form form .submit-btn:focus{
+    cursor: pointer;
+    background-color: #74ce5e;
+}
+
+.form form span{
+    font-size: 0.8rem;
+    color: white;
+}
+
+.form form span a{
+    color: #16a3db;
+    text-decoration: 1px underline;
+}
+
+.form form span a:hover{
+    color: #0cf3e0;
+}
+
+.form form .error-message{
+    font-weight: bold;
+    color: red;
+}

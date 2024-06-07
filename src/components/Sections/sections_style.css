@@ -1,0 +1,16 @@
+/* ===== Importes: Fontes ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+.section{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    font-family: 'Sawari Gothic', sans-serif;
+}
+
+@media (max-width: 810px){
+    .section{
+        padding: 0 5vw;
+    }
+}
