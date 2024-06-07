@@ -22,11 +22,11 @@ const Footer = () => {
             </ul>
           </div>
           <div className="useful-links">
-            <h2>Integrantes</h2>
+            <h2>Integrantes </h2>
             <ul>
-              <li><a href="https://github.com/VitorOnofreRamos">Vitor Onofre Ramos - RM553241</a></li>
-              <li><a href="https://github.com/Mauricio-Pereira">Mauricio Vieira Pereira - RM553748</a></li>
-              <li><a href="https://github.com/Luiz1614">Luiz Otávio Leitão Silva - RM553542</a></li>
+              <li><a href="https://github.com/VitorOnofreRamos">Vitor Onofre Ramos - RM553241 - 1TDSPC</a></li>
+              <li><a href="https://github.com/Mauricio-Pereira">Mauricio Vieira Pereira - RM553748 - 1TDSPC</a></li>
+              <li><a href="https://github.com/Luiz1614">Luiz Otávio Leitão Silva - RM553542 - 1TDSPC</a></li>
             </ul>
           </div>
         </div>
