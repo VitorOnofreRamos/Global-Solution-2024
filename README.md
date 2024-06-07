@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Blue Horizon Market
 
-## Getting Started
+Este projeto é o resultado da entrega da disciplina de Responsive Web Development, focada na construção de uma aplicação web completa utilizando React e TypeScript. O objetivo principal deste projeto é demonstrar a capacidade de integrar todas as partes de uma aplicação web, desde o backend até o frontend, garantindo uma experiência de usuário fluída e responsiva em diversos dispositivos.
 
-First, run the development server:
+### Tecnologias Utilizadas
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Frontend**: React + TypeScript
+- **Backend**: Node.js (Domain Drive Design)
+- **Banco de Dados**: SQL (Building Relational Database)
+- **Deploy**: Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Cadastro de Usuário com endereço
+- Login de Usuários já cadatrados
+- Listagem de produtos e Pequisa de produtos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Funcionalidades Principais
 
-## Learn More
+- **Integração com API**: Comunicação eficaz entre o frontend e o backend através de chamadas API.
+- **Gerenciamento de Estado**: Uso eficiente do Context API ou Redux para gerenciar o estado global da aplicação.
+- **Navegação Responsiva**: Implementação de rotas dinâmicas com React Router, adaptando-se a diferentes dispositivos.
+- **Design Responsivo**: Layouts adaptáveis para desktop, tablet e mobile.
 
-To learn more about Next.js, take a look at the following resources:
+### Requisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Estrutura e Organização do Código**: Código limpo, consistente e modular.
+- **Estilo e Design**: Tema visual coerente e adaptativo.
+- **Funcionalidades Implementadas**: Todas as funcionalidades especificadas no escopo do projeto.
+- **Segurança e Gerenciamento de Dados**: Proteção adequada contra ataques e manipulação de dados.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Como Executar o Projeto
 
-## Deploy on Vercel
+1. Clone o repositório do projeto.
+2. Instale as dependências executando `npm install` ou `npm i`.
+3. Execute o servidor local com `npm run dev`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Repositório
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. [GitHub - Projeto Front-End React/Next.Js](https://github.com/VitorOnofreRamos/Global-Solution-2024)
+2. [GitHub - Projeto completo](https://github.com/Mauricio-Pereira/GS-2024-1SEM)
+3. [GitHub - Projeto Back-End Java](https://github.com/Mauricio-Pereira/GS-2024-1SEM/tree/main/DDD/GS_2024_BLUE_HORIZON_MARKET)
+
+## Autores
+- [Vitor Onofre Ramos](https://github.com/VitorOnofreRamos)
+- [Mauricio Pereira](https://github.com/Mauricio-Pereira)
+- [Luiz Otávio Leitão Silva](https://github.com/Luiz1614)
